@@ -1,15 +1,23 @@
+body {
+    background-color: #121212; 
+    margin: 0;
+    padding: 0;
+}
+
 .sp-panel {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f5f7;
-    border-left: 5px solid #0078d4;
-    padding: 20px;
-    border-radius: 4px;
+    background-color: #2b2b2b;
+    color: #e0e0e0;
+    padding: 25px 20px;
+    border-radius: 6px;
     max-width: 450px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 40px auto; 
+    text-align: center; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); 
 }
 
 .sp-panel h3 {
-    color: #333;
+    color: #ffffff;
     margin-top: 0;
 }
 
@@ -17,15 +25,17 @@
     background-color: #0078d4;
     color: white;
     border: none;
-    padding: 10px 15px;
+    padding: 12px 24px; 
     border-radius: 4px;
     cursor: pointer;
     font-weight: 600;
     transition: background-color 0.2s;
+    display: inline-block;
+    margin-top: 15px;
 }
 
 .sp-btn:hover {
-    background-color: #005a9e;
+    background-color: #005a9e; 
 }
 
 .sp-btn.read {
@@ -34,7 +44,7 @@
 
 .sp-counter {
     display: block;
-    margin-top: 12px;
+    margin-top: 15px;
     font-size: 14px;
-    color: #666;
+    color: #aaaaaa; 
 }
