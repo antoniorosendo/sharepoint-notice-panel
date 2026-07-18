@@ -1,0 +1,40 @@
+.sp-panel {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f5f7;
+    border-left: 5px solid #0078d4;
+    padding: 20px;
+    border-radius: 4px;
+    max-width: 450px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.sp-panel h3 {
+    color: #333;
+    margin-top: 0;
+}
+
+.sp-btn {
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.2s;
+}
+
+.sp-btn:hover {
+    background-color: #005a9e;
+}
+
+.sp-btn.read {
+    background-color: #107c41;
+}
+
+.sp-counter {
+    display: block;
+    margin-top: 12px;
+    font-size: 14px;
+    color: #666;
+}
